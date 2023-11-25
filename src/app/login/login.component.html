@@ -1,0 +1,28 @@
+<div class="main-container container">  
+    <div class="main-container-login-forms">
+        <div class="main-container-login">
+            <h1>
+                Login Page
+            </h1>
+            <h2 class="main-container-login-para">
+                Page helps you connect and share attendance information.
+            </h2>
+        </div>
+    
+        <div class="main-container-forms">
+            <div class="main-container-forms-header" [formGroup]="loginForm" (ngSubmit)="loginUser()">
+                <form>
+                    <input type="name" class="main-container-forms-header-input" placeholder="Username"  formControlName="User">
+                    <br><br>
+                    <input type="password" class="main-container-forms-header-input" placeholder="Password" formControlName="Password">
+                    <br><br>
+                    <button class="main-container-forms-header-button">Login</button>
+                </form>
+            </div>
+            <div class="main-container-forms-footer">
+                <h4><a href="https://www.facebook.com/pages/create/?ref_type=registration_form">Create a Page</a> for a Parents, Manager or HOD.</h4>
+            </div>
+        </div>
+    </div>
+    
+</div> 

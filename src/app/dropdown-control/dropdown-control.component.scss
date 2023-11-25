@@ -1,0 +1,31 @@
+
+.dropdown{
+    color: rgb(16, 15, 15);
+    background-color: white;
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+    
+    .labelName{
+        background-color: white;
+        display: none;
+    }
+    
+    .dropdown-options{
+        color:black;
+        background-color: rgb(212, 102, 18);
+        width: 250px;
+        height: 100px;
+        padding: 40px;
+        
+
+        }
+    .dropdown-options:not(:checked) { 
+            background-color: #FFF; 
+            padding: 40px;
+        } 
+  
+}

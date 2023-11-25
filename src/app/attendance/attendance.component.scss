@@ -1,0 +1,20 @@
+.attendance{
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+    justify-content: center;
+    background-color: rgb(216, 209, 209);
+    height: 100%;
+    .attendance-dropdown{
+        margin: 40px;
+        padding: 40px;
+        
+
+    }
+    .attendance-table{
+        margin: 10px;
+        border-collapse: collapse;
+        text-align: center
+
+    }
+}

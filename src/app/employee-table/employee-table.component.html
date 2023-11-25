@@ -1,0 +1,9 @@
+<table style="width:100%" class="table">
+    <tr>
+      <th  class="table-heading" *ngFor="let heading of headings">{{heading}}</th>
+    </tr>
+    <tr *ngFor="let row of data">
+      <td class="table-data" *ngFor="let info of row">{{info}}</td>
+    </tr>
+    
+  </table>

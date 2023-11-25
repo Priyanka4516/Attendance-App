@@ -1,0 +1,9 @@
+
+        <select #optionsselect  class="dropdown" (change)="sample(optionsselect.value)" name="dog-names" id="dog-names"> 
+            <option class="labelName" selected >{{labelName}}</option>
+            <option class="dropdown-options" *ngFor="let option of options" [value]="option">{{option}}</option> 
+            
+        </select>
+   
+    
+
